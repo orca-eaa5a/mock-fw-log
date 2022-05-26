@@ -1,0 +1,424 @@
+2022-05-26 22:33:53	outbound	icmp	248.8.87.86:0	6.6.6.6:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:33:53	inbound	icmp	6.6.6.6:0	248.8.87.86:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:33:54	outbound	icmp	248.8.87.195:0	1.1.1.1:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:33:54	inbound	icmp	1.1.1.1:0	248.8.87.195:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:33:54	outbound	icmp	104.78.21.42:0	1.1.1.1:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:33:54	inbound	icmp	1.1.1.1:0	104.78.21.42:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:33:54	outbound	tcp	16.138.70.151:60307	2.2.2.2:80	1480	S	allow	test
+2022-05-26 22:33:54	inbound	tcp	2.2.2.2:80	16.138.70.151:60307	1480	SA	allow	test
+2022-05-26 22:33:54	outbound	tcp	16.138.70.151:60307	2.2.2.2:80	1480	FA	allow	test
+2022-05-26 22:33:55	outbound	tcp	158.100.82.240:52945	6.6.6.6:7070	1480	S	allow	test
+2022-05-26 22:33:55	inbound	tcp	6.6.6.6:7070	158.100.82.240:52945	1480	SA	allow	test
+2022-05-26 22:33:55	outbound	tcp	158.100.82.240:52945	6.6.6.6:7070	1480	FA	allow	test
+2022-05-26 22:33:55	outbound	icmp	16.138.70.225:0	7.7.7.7:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:33:55	inbound	icmp	7.7.7.7:0	16.138.70.225:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:33:55	outbound	icmp	16.138.70.48:0	2.2.2.2:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:33:55	inbound	icmp	2.2.2.2:0	16.138.70.48:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:33:56	outbound	tcp	248.8.87.103:56824	6.6.6.6:7070	1480	S	allow	test
+2022-05-26 22:33:56	inbound	tcp	6.6.6.6:7070	248.8.87.103:56824	1480	SA	allow	test
+2022-05-26 22:33:56	outbound	tcp	248.8.87.103:56824	6.6.6.6:7070	1480	FA	allow	test
+2022-05-26 22:33:56	outbound	tcp	16.138.70.14:50006	1.1.1.1:8080	1480	S	allow	test
+2022-05-26 22:33:56	inbound	tcp	1.1.1.1:8080	16.138.70.14:50006	1480	SA	allow	test
+2022-05-26 22:33:56	outbound	tcp	16.138.70.14:50006	1.1.1.1:8080	1480	FA	allow	test
+2022-05-26 22:33:56	outbound	icmp	248.8.87.152:0	3.3.3.3:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:33:56	inbound	icmp	3.3.3.3:0	248.8.87.152:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:33:56	outbound	icmp	104.78.21.210:0	6.6.6.6:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:33:56	inbound	icmp	6.6.6.6:0	104.78.21.210:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:33:57	outbound	tcp	158.100.82.185:58267	5.5.5.5:7090	1480	S	allow	test
+2022-05-26 22:33:57	inbound	tcp	5.5.5.5:7090	158.100.82.185:58267	1480	SA	allow	test
+2022-05-26 22:33:57	outbound	tcp	158.100.82.185:58267	5.5.5.5:7090	1480	FA	allow	test
+2022-05-26 22:33:57	outbound	tcp	158.100.82.40:53417	3.3.3.3:443	1480	S	allow	test
+2022-05-26 22:33:57	inbound	tcp	3.3.3.3:443	158.100.82.40:53417	1480	SA	allow	test
+2022-05-26 22:33:57	outbound	tcp	158.100.82.40:53417	3.3.3.3:443	1480	FA	allow	test
+2022-05-26 22:33:57	outbound	tcp	184.60.3.158:61345	4.4.4.4:9090	1480	S	allow	test
+2022-05-26 22:33:57	inbound	tcp	4.4.4.4:9090	184.60.3.158:61345	1480	SA	allow	test
+2022-05-26 22:33:57	outbound	tcp	184.60.3.158:61345	4.4.4.4:9090	1480	FA	allow	test
+2022-05-26 22:33:58	outbound	icmp	16.138.70.160:0	5.5.5.5:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:33:58	inbound	icmp	5.5.5.5:0	16.138.70.160:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:33:58	outbound	icmp	16.138.70.166:0	2.2.2.2:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:33:58	inbound	icmp	2.2.2.2:0	16.138.70.166:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:33:58	outbound	icmp	104.78.21.107:0	6.6.6.6:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:33:58	inbound	icmp	6.6.6.6:0	104.78.21.107:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:33:59	outbound	icmp	158.100.82.74:0	3.3.3.3:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:33:59	inbound	icmp	3.3.3.3:0	158.100.82.74:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:33:59	outbound	tcp	158.100.82.167:60283	6.6.6.6:7070	1480	S	allow	test
+2022-05-26 22:33:59	inbound	tcp	6.6.6.6:7070	158.100.82.167:60283	1480	SA	allow	test
+2022-05-26 22:33:59	outbound	tcp	158.100.82.167:60283	6.6.6.6:7070	1480	FA	allow	test
+2022-05-26 22:33:59	outbound	icmp	248.8.87.21:0	3.3.3.3:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:33:59	inbound	icmp	3.3.3.3:0	248.8.87.21:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:33:59	outbound	tcp	16.138.70.82:52691	5.5.5.5:7090	1480	S	allow	test
+2022-05-26 22:33:59	inbound	tcp	5.5.5.5:7090	16.138.70.82:52691	1480	SA	allow	test
+2022-05-26 22:33:59	outbound	tcp	16.138.70.82:52691	5.5.5.5:7090	1480	FA	allow	test
+2022-05-26 22:34:00	outbound	tcp	104.78.21.244:55215	6.6.6.6:7070	1480	S	allow	test
+2022-05-26 22:34:00	inbound	tcp	6.6.6.6:7070	104.78.21.244:55215	1480	SA	allow	test
+2022-05-26 22:34:00	outbound	tcp	104.78.21.244:55215	6.6.6.6:7070	1480	FA	allow	test
+2022-05-26 22:34:00	outbound	tcp	16.138.70.3:52919	2.2.2.2:80	1480	S	allow	test
+2022-05-26 22:34:00	inbound	tcp	2.2.2.2:80	16.138.70.3:52919	1480	SA	allow	test
+2022-05-26 22:34:00	outbound	tcp	16.138.70.3:52919	2.2.2.2:80	1480	FA	allow	test
+2022-05-26 22:34:00	outbound	tcp	158.100.82.62:61163	6.6.6.6:7070	1480	S	allow	test
+2022-05-26 22:34:00	inbound	tcp	6.6.6.6:7070	158.100.82.62:61163	1480	SA	allow	test
+2022-05-26 22:34:00	outbound	tcp	158.100.82.62:61163	6.6.6.6:7070	1480	FA	allow	test
+2022-05-26 22:34:01	outbound	tcp	248.8.87.168:56952	1.1.1.1:8080	1480	S	allow	test
+2022-05-26 22:34:01	inbound	tcp	1.1.1.1:8080	248.8.87.168:56952	1480	SA	allow	test
+2022-05-26 22:34:01	outbound	tcp	248.8.87.168:56952	1.1.1.1:8080	1480	FA	allow	test
+2022-05-26 22:34:01	outbound	icmp	184.60.3.49:0	2.2.2.2:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:34:01	inbound	icmp	2.2.2.2:0	184.60.3.49:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:34:01	outbound	icmp	184.60.3.127:0	6.6.6.6:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:34:01	inbound	icmp	6.6.6.6:0	184.60.3.127:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:34:02	outbound	icmp	184.60.3.18:0	2.2.2.2:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:34:02	inbound	icmp	2.2.2.2:0	184.60.3.18:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:34:02	outbound	tcp	248.8.87.229:56274	3.3.3.3:443	1480	S	allow	test
+2022-05-26 22:34:02	inbound	tcp	3.3.3.3:443	248.8.87.229:56274	1480	SA	allow	test
+2022-05-26 22:34:02	outbound	tcp	248.8.87.229:56274	3.3.3.3:443	1480	FA	allow	test
+2022-05-26 22:34:02	outbound	icmp	158.100.82.72:0	5.5.5.5:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:34:02	inbound	icmp	5.5.5.5:0	158.100.82.72:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:34:03	outbound	tcp	16.138.70.69:62783	6.6.6.6:7070	1480	S	allow	test
+2022-05-26 22:34:03	inbound	tcp	6.6.6.6:7070	16.138.70.69:62783	1480	SA	allow	test
+2022-05-26 22:34:03	outbound	tcp	16.138.70.69:62783	6.6.6.6:7070	1480	FA	allow	test
+2022-05-26 22:34:03	outbound	icmp	16.138.70.7:0	4.4.4.4:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:34:03	inbound	icmp	4.4.4.4:0	16.138.70.7:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:34:03	outbound	udp	158.100.82.18:62190	7.7.7.7:4443	1480		allow	test
+2022-05-26 22:34:03	outbound	icmp	158.100.82.183:0	5.5.5.5:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:34:03	inbound	icmp	5.5.5.5:0	158.100.82.183:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:34:04	outbound	udp	248.8.87.149:60702	7.7.7.7:4443	1480		allow	test
+2022-05-26 22:34:04	outbound	icmp	248.8.87.143:0	7.7.7.7:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:34:04	inbound	icmp	7.7.7.7:0	248.8.87.143:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:34:04	outbound	icmp	158.100.82.82:0	2.2.2.2:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:34:04	inbound	icmp	2.2.2.2:0	158.100.82.82:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:34:05	outbound	tcp	16.138.70.221:62452	1.1.1.1:8080	1480	S	allow	test
+2022-05-26 22:34:05	inbound	tcp	1.1.1.1:8080	16.138.70.221:62452	1480	SA	allow	test
+2022-05-26 22:34:05	outbound	tcp	16.138.70.221:62452	1.1.1.1:8080	1480	FA	allow	test
+2022-05-26 22:34:05	outbound	tcp	184.60.3.247:62192	2.2.2.2:80	1480	S	allow	test
+2022-05-26 22:34:05	inbound	tcp	2.2.2.2:80	184.60.3.247:62192	1480	SA	allow	test
+2022-05-26 22:34:05	outbound	tcp	184.60.3.247:62192	2.2.2.2:80	1480	FA	allow	test
+2022-05-26 22:34:05	outbound	icmp	248.8.87.34:0	3.3.3.3:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:34:05	inbound	icmp	3.3.3.3:0	248.8.87.34:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:34:06	outbound	tcp	248.8.87.195:50825	6.6.6.6:7070	1480	S	allow	test
+2022-05-26 22:34:06	inbound	tcp	6.6.6.6:7070	248.8.87.195:50825	1480	SA	allow	test
+2022-05-26 22:34:06	outbound	tcp	248.8.87.195:50825	6.6.6.6:7070	1480	FA	allow	test
+2022-05-26 22:34:06	outbound	tcp	184.60.3.44:60106	5.5.5.5:7090	1480	S	allow	test
+2022-05-26 22:34:06	inbound	tcp	5.5.5.5:7090	184.60.3.44:60106	1480	SA	allow	test
+2022-05-26 22:34:06	outbound	tcp	184.60.3.44:60106	5.5.5.5:7090	1480	FA	allow	test
+2022-05-26 22:34:06	outbound	udp	184.60.3.114:52942	7.7.7.7:4443	1480		allow	test
+2022-05-26 22:34:06	outbound	tcp	16.138.70.16:63678	2.2.2.2:80	1480	S	allow	test
+2022-05-26 22:34:06	inbound	tcp	2.2.2.2:80	16.138.70.16:63678	1480	SA	allow	test
+2022-05-26 22:34:06	outbound	tcp	16.138.70.16:63678	2.2.2.2:80	1480	FA	allow	test
+2022-05-26 22:34:07	outbound	udp	16.138.70.228:60464	7.7.7.7:4443	1480		allow	test
+2022-05-26 22:34:07	outbound	tcp	158.100.82.212:65001	5.5.5.5:7090	1480	S	allow	test
+2022-05-26 22:34:07	inbound	tcp	5.5.5.5:7090	158.100.82.212:65001	1480	SA	allow	test
+2022-05-26 22:34:07	outbound	tcp	158.100.82.212:65001	5.5.5.5:7090	1480	FA	allow	test
+2022-05-26 22:34:07	outbound	tcp	16.138.70.183:57410	6.6.6.6:7070	1480	S	allow	test
+2022-05-26 22:34:07	inbound	tcp	6.6.6.6:7070	16.138.70.183:57410	1480	SA	allow	test
+2022-05-26 22:34:07	outbound	tcp	16.138.70.183:57410	6.6.6.6:7070	1480	FA	allow	test
+2022-05-26 22:34:08	outbound	tcp	184.60.3.108:54238	6.6.6.6:7070	1480	S	allow	test
+2022-05-26 22:34:08	inbound	tcp	6.6.6.6:7070	184.60.3.108:54238	1480	SA	allow	test
+2022-05-26 22:34:08	outbound	tcp	184.60.3.108:54238	6.6.6.6:7070	1480	FA	allow	test
+2022-05-26 22:34:08	outbound	tcp	104.78.21.116:65124	5.5.5.5:7090	1480	S	allow	test
+2022-05-26 22:34:08	inbound	tcp	5.5.5.5:7090	104.78.21.116:65124	1480	SA	allow	test
+2022-05-26 22:34:08	outbound	tcp	104.78.21.116:65124	5.5.5.5:7090	1480	FA	allow	test
+2022-05-26 22:34:08	outbound	tcp	158.100.82.91:53092	4.4.4.4:9090	1480	S	allow	test
+2022-05-26 22:34:08	inbound	tcp	4.4.4.4:9090	158.100.82.91:53092	1480	SA	allow	test
+2022-05-26 22:34:08	outbound	tcp	158.100.82.91:53092	4.4.4.4:9090	1480	FA	allow	test
+2022-05-26 22:34:09	outbound	icmp	16.138.70.0:0	6.6.6.6:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:34:09	inbound	icmp	6.6.6.6:0	16.138.70.0:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:34:09	outbound	tcp	184.60.3.117:62099	3.3.3.3:443	1480	S	allow	test
+2022-05-26 22:34:09	inbound	tcp	3.3.3.3:443	184.60.3.117:62099	1480	SA	allow	test
+2022-05-26 22:34:09	outbound	tcp	184.60.3.117:62099	3.3.3.3:443	1480	FA	allow	test
+2022-05-26 22:34:09	outbound	icmp	104.78.21.29:0	3.3.3.3:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:34:09	inbound	icmp	3.3.3.3:0	104.78.21.29:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:34:10	outbound	tcp	248.8.87.24:53080	4.4.4.4:9090	1480	S	allow	test
+2022-05-26 22:34:10	inbound	tcp	4.4.4.4:9090	248.8.87.24:53080	1480	SA	allow	test
+2022-05-26 22:34:10	outbound	tcp	248.8.87.24:53080	4.4.4.4:9090	1480	FA	allow	test
+2022-05-26 22:34:10	outbound	icmp	248.8.87.105:0	6.6.6.6:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:34:10	inbound	icmp	6.6.6.6:0	248.8.87.105:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:34:10	outbound	icmp	158.100.82.154:0	5.5.5.5:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:34:10	inbound	icmp	5.5.5.5:0	158.100.82.154:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:34:10	outbound	udp	158.100.82.158:58523	7.7.7.7:4443	1480		allow	test
+2022-05-26 22:34:11	outbound	tcp	16.138.70.129:52794	4.4.4.4:9090	1480	S	allow	test
+2022-05-26 22:34:11	inbound	tcp	4.4.4.4:9090	16.138.70.129:52794	1480	SA	allow	test
+2022-05-26 22:34:11	outbound	tcp	16.138.70.129:52794	4.4.4.4:9090	1480	FA	allow	test
+2022-05-26 22:34:11	outbound	tcp	248.8.87.113:56782	5.5.5.5:7090	1480	S	allow	test
+2022-05-26 22:34:11	inbound	tcp	5.5.5.5:7090	248.8.87.113:56782	1480	SA	allow	test
+2022-05-26 22:34:11	outbound	tcp	248.8.87.113:56782	5.5.5.5:7090	1480	FA	allow	test
+2022-05-26 22:34:11	outbound	icmp	104.78.21.147:0	5.5.5.5:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:34:11	inbound	icmp	5.5.5.5:0	104.78.21.147:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:34:12	outbound	tcp	158.100.82.119:56970	4.4.4.4:9090	1480	S	allow	test
+2022-05-26 22:34:12	inbound	tcp	4.4.4.4:9090	158.100.82.119:56970	1480	SA	allow	test
+2022-05-26 22:34:12	outbound	tcp	158.100.82.119:56970	4.4.4.4:9090	1480	FA	allow	test
+2022-05-26 22:34:12	outbound	tcp	158.100.82.203:65478	5.5.5.5:7090	1480	S	allow	test
+2022-05-26 22:34:12	inbound	tcp	5.5.5.5:7090	158.100.82.203:65478	1480	SA	allow	test
+2022-05-26 22:34:12	outbound	tcp	158.100.82.203:65478	5.5.5.5:7090	1480	FA	allow	test
+2022-05-26 22:34:12	outbound	icmp	104.78.21.59:0	2.2.2.2:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:34:12	inbound	icmp	2.2.2.2:0	104.78.21.59:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:34:13	outbound	icmp	248.8.87.60:0	6.6.6.6:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:34:13	inbound	icmp	6.6.6.6:0	248.8.87.60:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:34:13	outbound	icmp	158.100.82.14:0	3.3.3.3:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:34:13	inbound	icmp	3.3.3.3:0	158.100.82.14:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:34:13	outbound	tcp	158.100.82.252:59952	3.3.3.3:443	1480	S	allow	test
+2022-05-26 22:34:13	inbound	tcp	3.3.3.3:443	158.100.82.252:59952	1480	SA	allow	test
+2022-05-26 22:34:13	outbound	tcp	158.100.82.252:59952	3.3.3.3:443	1480	FA	allow	test
+2022-05-26 22:34:13	outbound	icmp	16.138.70.56:0	2.2.2.2:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:34:13	inbound	icmp	2.2.2.2:0	16.138.70.56:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:34:14	outbound	tcp	158.100.82.161:56837	6.6.6.6:7070	1480	S	allow	test
+2022-05-26 22:34:14	inbound	tcp	6.6.6.6:7070	158.100.82.161:56837	1480	SA	allow	test
+2022-05-26 22:34:14	outbound	tcp	158.100.82.161:56837	6.6.6.6:7070	1480	FA	allow	test
+2022-05-26 22:34:14	outbound	icmp	104.78.21.37:0	6.6.6.6:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:34:14	inbound	icmp	6.6.6.6:0	104.78.21.37:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:34:14	outbound	udp	16.138.70.179:53169	7.7.7.7:4443	1480		allow	test
+2022-05-26 22:34:15	outbound	tcp	16.138.70.254:64970	5.5.5.5:7090	1480	S	allow	test
+2022-05-26 22:34:15	inbound	tcp	5.5.5.5:7090	16.138.70.254:64970	1480	SA	allow	test
+2022-05-26 22:34:15	outbound	tcp	16.138.70.254:64970	5.5.5.5:7090	1480	FA	allow	test
+2022-05-26 22:34:15	outbound	icmp	16.138.70.81:0	5.5.5.5:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:34:15	inbound	icmp	5.5.5.5:0	16.138.70.81:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:34:15	outbound	tcp	158.100.82.107:53201	1.1.1.1:8080	1480	S	allow	test
+2022-05-26 22:34:15	inbound	tcp	1.1.1.1:8080	158.100.82.107:53201	1480	SA	allow	test
+2022-05-26 22:34:15	outbound	tcp	158.100.82.107:53201	1.1.1.1:8080	1480	FA	allow	test
+2022-05-26 22:34:16	outbound	icmp	184.60.3.250:0	3.3.3.3:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:34:16	inbound	icmp	3.3.3.3:0	184.60.3.250:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:34:16	outbound	icmp	248.8.87.38:0	5.5.5.5:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:34:16	inbound	icmp	5.5.5.5:0	248.8.87.38:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:34:16	outbound	udp	184.60.3.201:50880	7.7.7.7:4443	1480		allow	test
+2022-05-26 22:34:17	outbound	tcp	248.8.87.80:64547	3.3.3.3:443	1480	S	allow	test
+2022-05-26 22:34:17	inbound	tcp	3.3.3.3:443	248.8.87.80:64547	1480	SA	allow	test
+2022-05-26 22:34:17	outbound	tcp	248.8.87.80:64547	3.3.3.3:443	1480	FA	allow	test
+2022-05-26 22:34:17	outbound	tcp	104.78.21.169:63097	5.5.5.5:7090	1480	S	allow	test
+2022-05-26 22:34:17	inbound	tcp	5.5.5.5:7090	104.78.21.169:63097	1480	SA	allow	test
+2022-05-26 22:34:17	outbound	tcp	104.78.21.169:63097	5.5.5.5:7090	1480	FA	allow	test
+2022-05-26 22:34:17	outbound	icmp	158.100.82.127:0	6.6.6.6:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:34:17	inbound	icmp	6.6.6.6:0	158.100.82.127:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:34:17	outbound	icmp	104.78.21.44:0	5.5.5.5:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:34:17	inbound	icmp	5.5.5.5:0	104.78.21.44:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:34:18	outbound	icmp	158.100.82.202:0	4.4.4.4:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:34:18	inbound	icmp	4.4.4.4:0	158.100.82.202:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:34:18	outbound	icmp	158.100.82.172:0	6.6.6.6:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:34:18	inbound	icmp	6.6.6.6:0	158.100.82.172:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:34:18	outbound	icmp	158.100.82.48:0	6.6.6.6:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:34:18	inbound	icmp	6.6.6.6:0	158.100.82.48:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:34:19	outbound	icmp	184.60.3.140:0	6.6.6.6:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:34:19	inbound	icmp	6.6.6.6:0	184.60.3.140:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:34:19	outbound	icmp	158.100.82.153:0	1.1.1.1:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:34:19	inbound	icmp	1.1.1.1:0	158.100.82.153:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:34:19	outbound	tcp	158.100.82.235:57650	4.4.4.4:9090	1480	S	allow	test
+2022-05-26 22:34:19	inbound	tcp	4.4.4.4:9090	158.100.82.235:57650	1480	SA	allow	test
+2022-05-26 22:34:19	outbound	tcp	158.100.82.235:57650	4.4.4.4:9090	1480	FA	allow	test
+2022-05-26 22:34:20	outbound	tcp	248.8.87.134:50330	3.3.3.3:443	1480	S	allow	test
+2022-05-26 22:34:20	inbound	tcp	3.3.3.3:443	248.8.87.134:50330	1480	SA	allow	test
+2022-05-26 22:34:20	outbound	tcp	248.8.87.134:50330	3.3.3.3:443	1480	FA	allow	test
+2022-05-26 22:34:20	outbound	icmp	104.78.21.173:0	2.2.2.2:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:34:20	inbound	icmp	2.2.2.2:0	104.78.21.173:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:34:20	outbound	icmp	184.60.3.90:0	1.1.1.1:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:34:20	inbound	icmp	1.1.1.1:0	184.60.3.90:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:34:20	outbound	udp	184.60.3.163:51759	7.7.7.7:4443	1480		allow	test
+2022-05-26 22:34:21	outbound	tcp	16.138.70.96:51396	3.3.3.3:443	1480	S	allow	test
+2022-05-26 22:34:21	inbound	tcp	3.3.3.3:443	16.138.70.96:51396	1480	SA	allow	test
+2022-05-26 22:34:21	outbound	tcp	16.138.70.96:51396	3.3.3.3:443	1480	FA	allow	test
+2022-05-26 22:34:21	outbound	icmp	184.60.3.228:0	2.2.2.2:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:34:21	inbound	icmp	2.2.2.2:0	184.60.3.228:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:34:21	outbound	icmp	184.60.3.102:0	2.2.2.2:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:34:21	inbound	icmp	2.2.2.2:0	184.60.3.102:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:34:22	outbound	tcp	184.60.3.95:50468	4.4.4.4:9090	1480	S	allow	test
+2022-05-26 22:34:22	inbound	tcp	4.4.4.4:9090	184.60.3.95:50468	1480	SA	allow	test
+2022-05-26 22:34:22	outbound	tcp	184.60.3.95:50468	4.4.4.4:9090	1480	FA	allow	test
+2022-05-26 22:34:22	outbound	tcp	16.138.70.155:59364	6.6.6.6:7070	1480	S	allow	test
+2022-05-26 22:34:22	inbound	tcp	6.6.6.6:7070	16.138.70.155:59364	1480	SA	allow	test
+2022-05-26 22:34:22	outbound	tcp	16.138.70.155:59364	6.6.6.6:7070	1480	FA	allow	test
+2022-05-26 22:34:22	outbound	icmp	184.60.3.52:0	7.7.7.7:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:34:22	inbound	icmp	7.7.7.7:0	184.60.3.52:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:34:23	outbound	tcp	158.100.82.248:64039	4.4.4.4:9090	1480	S	allow	test
+2022-05-26 22:34:23	inbound	tcp	4.4.4.4:9090	158.100.82.248:64039	1480	SA	allow	test
+2022-05-26 22:34:23	outbound	tcp	158.100.82.248:64039	4.4.4.4:9090	1480	FA	allow	test
+2022-05-26 22:34:23	outbound	icmp	248.8.87.35:0	2.2.2.2:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:34:23	inbound	icmp	2.2.2.2:0	248.8.87.35:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:34:23	outbound	tcp	184.60.3.125:61989	5.5.5.5:7090	1480	S	allow	test
+2022-05-26 22:34:23	inbound	tcp	5.5.5.5:7090	184.60.3.125:61989	1480	SA	allow	test
+2022-05-26 22:34:23	outbound	tcp	184.60.3.125:61989	5.5.5.5:7090	1480	FA	allow	test
+2022-05-26 22:34:24	outbound	icmp	104.78.21.108:0	7.7.7.7:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:34:24	inbound	icmp	7.7.7.7:0	104.78.21.108:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:34:24	outbound	icmp	158.100.82.19:0	2.2.2.2:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:34:24	inbound	icmp	2.2.2.2:0	158.100.82.19:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:34:24	outbound	tcp	248.8.87.248:64440	3.3.3.3:443	1480	S	allow	test
+2022-05-26 22:34:24	inbound	tcp	3.3.3.3:443	248.8.87.248:64440	1480	SA	allow	test
+2022-05-26 22:34:24	outbound	tcp	248.8.87.248:64440	3.3.3.3:443	1480	FA	allow	test
+2022-05-26 22:34:24	outbound	icmp	104.78.21.99:0	2.2.2.2:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:34:24	inbound	icmp	2.2.2.2:0	104.78.21.99:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:34:25	outbound	tcp	248.8.87.250:54372	1.1.1.1:8080	1480	S	allow	test
+2022-05-26 22:34:25	inbound	tcp	1.1.1.1:8080	248.8.87.250:54372	1480	SA	allow	test
+2022-05-26 22:34:25	outbound	tcp	248.8.87.250:54372	1.1.1.1:8080	1480	FA	allow	test
+2022-05-26 22:34:25	outbound	udp	158.100.82.26:51946	7.7.7.7:4443	1480		allow	test
+2022-05-26 22:34:25	outbound	tcp	248.8.87.81:52093	4.4.4.4:9090	1480	S	allow	test
+2022-05-26 22:34:25	inbound	tcp	4.4.4.4:9090	248.8.87.81:52093	1480	SA	allow	test
+2022-05-26 22:34:25	outbound	tcp	248.8.87.81:52093	4.4.4.4:9090	1480	FA	allow	test
+2022-05-26 22:34:26	outbound	tcp	184.60.3.72:55073	3.3.3.3:443	1480	S	allow	test
+2022-05-26 22:34:26	inbound	tcp	3.3.3.3:443	184.60.3.72:55073	1480	SA	allow	test
+2022-05-26 22:34:26	outbound	tcp	184.60.3.72:55073	3.3.3.3:443	1480	FA	allow	test
+2022-05-26 22:34:26	outbound	tcp	16.138.70.132:57085	2.2.2.2:80	1480	S	allow	test
+2022-05-26 22:34:26	inbound	tcp	2.2.2.2:80	16.138.70.132:57085	1480	SA	allow	test
+2022-05-26 22:34:26	outbound	tcp	16.138.70.132:57085	2.2.2.2:80	1480	FA	allow	test
+2022-05-26 22:34:26	outbound	tcp	184.60.3.149:57935	5.5.5.5:7090	1480	S	allow	test
+2022-05-26 22:34:26	inbound	tcp	5.5.5.5:7090	184.60.3.149:57935	1480	SA	allow	test
+2022-05-26 22:34:26	outbound	tcp	184.60.3.149:57935	5.5.5.5:7090	1480	FA	allow	test
+2022-05-26 22:34:27	outbound	icmp	248.8.87.100:0	4.4.4.4:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:34:27	inbound	icmp	4.4.4.4:0	248.8.87.100:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:34:27	outbound	tcp	248.8.87.38:52510	1.1.1.1:8080	1480	S	allow	test
+2022-05-26 22:34:27	inbound	tcp	1.1.1.1:8080	248.8.87.38:52510	1480	SA	allow	test
+2022-05-26 22:34:27	outbound	tcp	248.8.87.38:52510	1.1.1.1:8080	1480	FA	allow	test
+2022-05-26 22:34:27	outbound	icmp	184.60.3.137:0	6.6.6.6:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:34:27	inbound	icmp	6.6.6.6:0	184.60.3.137:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:34:27	outbound	tcp	16.138.70.66:53175	3.3.3.3:443	1480	S	allow	test
+2022-05-26 22:34:27	inbound	tcp	3.3.3.3:443	16.138.70.66:53175	1480	SA	allow	test
+2022-05-26 22:34:27	outbound	tcp	16.138.70.66:53175	3.3.3.3:443	1480	FA	allow	test
+2022-05-26 22:34:28	outbound	icmp	158.100.82.237:0	1.1.1.1:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:34:28	inbound	icmp	1.1.1.1:0	158.100.82.237:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:34:28	outbound	tcp	184.60.3.114:51788	6.6.6.6:7070	1480	S	allow	test
+2022-05-26 22:34:28	inbound	tcp	6.6.6.6:7070	184.60.3.114:51788	1480	SA	allow	test
+2022-05-26 22:34:28	outbound	tcp	184.60.3.114:51788	6.6.6.6:7070	1480	FA	allow	test
+2022-05-26 22:34:28	outbound	icmp	104.78.21.73:0	6.6.6.6:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:34:28	inbound	icmp	6.6.6.6:0	104.78.21.73:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:34:29	outbound	icmp	104.78.21.1:0	1.1.1.1:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:34:29	inbound	icmp	1.1.1.1:0	104.78.21.1:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:34:29	outbound	udp	184.60.3.195:58735	7.7.7.7:4443	1480		allow	test
+2022-05-26 22:34:29	outbound	tcp	104.78.21.55:52533	6.6.6.6:7070	1480	S	allow	test
+2022-05-26 22:34:29	inbound	tcp	6.6.6.6:7070	104.78.21.55:52533	1480	SA	allow	test
+2022-05-26 22:34:29	outbound	tcp	104.78.21.55:52533	6.6.6.6:7070	1480	FA	allow	test
+2022-05-26 22:34:30	outbound	icmp	184.60.3.87:0	3.3.3.3:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:34:30	inbound	icmp	3.3.3.3:0	184.60.3.87:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:34:30	outbound	icmp	158.100.82.130:0	6.6.6.6:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:34:30	inbound	icmp	6.6.6.6:0	158.100.82.130:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:34:30	outbound	tcp	104.78.21.161:64934	1.1.1.1:8080	1480	S	allow	test
+2022-05-26 22:34:30	inbound	tcp	1.1.1.1:8080	104.78.21.161:64934	1480	SA	allow	test
+2022-05-26 22:34:30	outbound	tcp	104.78.21.161:64934	1.1.1.1:8080	1480	FA	allow	test
+2022-05-26 22:34:31	outbound	icmp	184.60.3.193:0	3.3.3.3:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:34:31	inbound	icmp	3.3.3.3:0	184.60.3.193:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:34:31	outbound	icmp	104.78.21.176:0	3.3.3.3:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:34:31	inbound	icmp	3.3.3.3:0	104.78.21.176:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:34:31	outbound	tcp	158.100.82.45:56116	5.5.5.5:7090	1480	S	allow	test
+2022-05-26 22:34:31	inbound	tcp	5.5.5.5:7090	158.100.82.45:56116	1480	SA	allow	test
+2022-05-26 22:34:31	outbound	tcp	158.100.82.45:56116	5.5.5.5:7090	1480	FA	allow	test
+2022-05-26 22:34:31	outbound	tcp	184.60.3.149:65025	3.3.3.3:443	1480	S	allow	test
+2022-05-26 22:34:31	inbound	tcp	3.3.3.3:443	184.60.3.149:65025	1480	SA	allow	test
+2022-05-26 22:34:31	outbound	tcp	184.60.3.149:65025	3.3.3.3:443	1480	FA	allow	test
+2022-05-26 22:34:32	outbound	tcp	248.8.87.254:51252	5.5.5.5:7090	1480	S	allow	test
+2022-05-26 22:34:32	inbound	tcp	5.5.5.5:7090	248.8.87.254:51252	1480	SA	allow	test
+2022-05-26 22:34:32	outbound	tcp	248.8.87.254:51252	5.5.5.5:7090	1480	FA	allow	test
+2022-05-26 22:34:32	outbound	tcp	104.78.21.40:52281	5.5.5.5:7090	1480	S	allow	test
+2022-05-26 22:34:32	inbound	tcp	5.5.5.5:7090	104.78.21.40:52281	1480	SA	allow	test
+2022-05-26 22:34:32	outbound	tcp	104.78.21.40:52281	5.5.5.5:7090	1480	FA	allow	test
+2022-05-26 22:34:32	outbound	icmp	104.78.21.2:0	6.6.6.6:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:34:32	inbound	icmp	6.6.6.6:0	104.78.21.2:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:34:33	outbound	tcp	184.60.3.135:65118	3.3.3.3:443	1480	S	allow	test
+2022-05-26 22:34:33	inbound	tcp	3.3.3.3:443	184.60.3.135:65118	1480	SA	allow	test
+2022-05-26 22:34:33	outbound	tcp	184.60.3.135:65118	3.3.3.3:443	1480	FA	allow	test
+2022-05-26 22:34:33	outbound	udp	104.78.21.100:58925	7.7.7.7:4443	1480		allow	test
+2022-05-26 22:34:33	outbound	tcp	104.78.21.214:64372	1.1.1.1:8080	1480	S	allow	test
+2022-05-26 22:34:33	inbound	tcp	1.1.1.1:8080	104.78.21.214:64372	1480	SA	allow	test
+2022-05-26 22:34:33	outbound	tcp	104.78.21.214:64372	1.1.1.1:8080	1480	FA	allow	test
+2022-05-26 22:34:34	outbound	tcp	184.60.3.66:62705	5.5.5.5:7090	1480	S	allow	test
+2022-05-26 22:34:34	inbound	tcp	5.5.5.5:7090	184.60.3.66:62705	1480	SA	allow	test
+2022-05-26 22:34:34	outbound	tcp	184.60.3.66:62705	5.5.5.5:7090	1480	FA	allow	test
+2022-05-26 22:34:34	outbound	tcp	16.138.70.231:58443	1.1.1.1:8080	1480	S	allow	test
+2022-05-26 22:34:34	inbound	tcp	1.1.1.1:8080	16.138.70.231:58443	1480	SA	allow	test
+2022-05-26 22:34:34	outbound	tcp	16.138.70.231:58443	1.1.1.1:8080	1480	FA	allow	test
+2022-05-26 22:34:34	outbound	tcp	16.138.70.108:57901	1.1.1.1:8080	1480	S	allow	test
+2022-05-26 22:34:34	inbound	tcp	1.1.1.1:8080	16.138.70.108:57901	1480	SA	allow	test
+2022-05-26 22:34:34	outbound	tcp	16.138.70.108:57901	1.1.1.1:8080	1480	FA	allow	test
+2022-05-26 22:34:34	outbound	tcp	158.100.82.68:53719	3.3.3.3:443	1480	S	allow	test
+2022-05-26 22:34:34	inbound	tcp	3.3.3.3:443	158.100.82.68:53719	1480	SA	allow	test
+2022-05-26 22:34:34	outbound	tcp	158.100.82.68:53719	3.3.3.3:443	1480	FA	allow	test
+2022-05-26 22:34:35	outbound	icmp	184.60.3.112:0	7.7.7.7:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:34:35	inbound	icmp	7.7.7.7:0	184.60.3.112:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:34:35	outbound	icmp	104.78.21.38:0	2.2.2.2:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:34:35	inbound	icmp	2.2.2.2:0	104.78.21.38:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:34:35	outbound	icmp	16.138.70.240:0	5.5.5.5:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:34:35	inbound	icmp	5.5.5.5:0	16.138.70.240:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:34:36	outbound	tcp	16.138.70.23:50564	5.5.5.5:7090	1480	S	allow	test
+2022-05-26 22:34:36	inbound	tcp	5.5.5.5:7090	16.138.70.23:50564	1480	SA	allow	test
+2022-05-26 22:34:36	outbound	tcp	16.138.70.23:50564	5.5.5.5:7090	1480	FA	allow	test
+2022-05-26 22:34:36	outbound	icmp	104.78.21.106:0	6.6.6.6:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:34:36	inbound	icmp	6.6.6.6:0	104.78.21.106:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:34:36	outbound	tcp	184.60.3.161:60837	4.4.4.4:9090	1480	S	allow	test
+2022-05-26 22:34:36	inbound	tcp	4.4.4.4:9090	184.60.3.161:60837	1480	SA	allow	test
+2022-05-26 22:34:36	outbound	tcp	184.60.3.161:60837	4.4.4.4:9090	1480	FA	allow	test
+2022-05-26 22:34:37	outbound	icmp	184.60.3.211:0	7.7.7.7:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:34:37	inbound	icmp	7.7.7.7:0	184.60.3.211:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:34:37	inbound	icmp	44.44.44.73:0	210.97.206.244:0	600	ICMP Echo Request	allow	attacker
+2022-05-26 22:34:37	inbound	icmp	44.44.44.142:0	91.98.6.230:0	600	ICMP Echo Request	allow	attacker
+2022-05-26 22:34:37	outbound	icmp	248.8.87.85:0	1.1.1.1:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:34:37	inbound	icmp	1.1.1.1:0	248.8.87.85:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:34:37	inbound	icmp	44.44.44.7:0	210.97.206.87:0	600	ICMP Echo Request	allow	attacker
+2022-05-26 22:34:37	inbound	icmp	44.44.44.89:0	210.97.206.194:0	600	ICMP Echo Request	allow	attacker
+2022-05-26 22:34:37	inbound	icmp	44.44.44.88:0	210.97.206.66:0	600	ICMP Echo Request	allow	attacker
+2022-05-26 22:34:37	outbound	tcp	104.78.21.241:53351	1.1.1.1:8080	1480	S	allow	test
+2022-05-26 22:34:37	inbound	tcp	1.1.1.1:8080	104.78.21.241:53351	1480	SA	allow	test
+2022-05-26 22:34:37	outbound	tcp	104.78.21.241:53351	1.1.1.1:8080	1480	FA	allow	test
+2022-05-26 22:34:37	inbound	icmp	11.100.2.71:0	210.97.206.20:0	600	ICMP Echo Request	allow	attacker
+2022-05-26 22:34:37	outbound	icmp	210.97.206.20:0	11.100.2.71:0	600	ICMP Echo Response	allow	attacker
+2022-05-26 22:34:37	inbound	icmp	44.44.44.79:0	182.242.18.194:0	600	ICMP Echo Request	allow	attacker
+2022-05-26 22:34:37	inbound	icmp	44.44.44.62:0	91.98.6.247:0	600	ICMP Echo Request	allow	attacker
+2022-05-26 22:34:38	outbound	tcp	104.78.21.85:50607	3.3.3.3:443	1480	S	allow	test
+2022-05-26 22:34:38	inbound	tcp	3.3.3.3:443	104.78.21.85:50607	1480	SA	allow	test
+2022-05-26 22:34:38	outbound	tcp	104.78.21.85:50607	3.3.3.3:443	1480	FA	allow	test
+2022-05-26 22:34:38	inbound	icmp	44.44.44.22:0	210.97.206.183:0	600	ICMP Echo Request	allow	attacker
+2022-05-26 22:34:38	outbound	icmp	210.97.206.183:0	44.44.44.22:0	600	ICMP Echo Response	allow	attacker
+2022-05-26 22:34:38	inbound	icmp	11.100.2.61:0	182.242.18.53:0	600	ICMP Echo Request	allow	attacker
+2022-05-26 22:34:38	outbound	icmp	182.242.18.53:0	11.100.2.61:0	600	ICMP Echo Response	allow	attacker
+2022-05-26 22:34:38	inbound	icmp	44.44.44.154:0	182.242.18.63:0	600	ICMP Echo Request	allow	attacker
+2022-05-26 22:34:38	outbound	udp	16.138.70.3:56642	7.7.7.7:4443	1480		allow	test
+2022-05-26 22:34:38	inbound	icmp	44.44.44.105:0	91.98.6.155:0	600	ICMP Echo Request	allow	attacker
+2022-05-26 22:34:38	inbound	icmp	11.100.2.121:0	91.98.6.0:0	600	ICMP Echo Request	allow	attacker
+2022-05-26 22:34:38	inbound	icmp	44.44.44.144:0	210.97.206.154:0	600	ICMP Echo Request	allow	attacker
+2022-05-26 22:34:38	outbound	icmp	210.97.206.154:0	44.44.44.144:0	600	ICMP Echo Response	allow	attacker
+2022-05-26 22:34:38	outbound	tcp	158.100.82.105:54064	3.3.3.3:443	1480	S	allow	test
+2022-05-26 22:34:38	inbound	tcp	3.3.3.3:443	158.100.82.105:54064	1480	SA	allow	test
+2022-05-26 22:34:38	outbound	tcp	158.100.82.105:54064	3.3.3.3:443	1480	FA	allow	test
+2022-05-26 22:34:38	inbound	icmp	11.100.2.12:0	28.33.158.173:0	600	ICMP Echo Request	allow	attacker
+2022-05-26 22:34:38	inbound	icmp	44.44.44.208:0	182.242.18.236:0	600	ICMP Echo Request	allow	attacker
+2022-05-26 22:34:38	inbound	icmp	44.44.44.206:0	182.242.18.214:0	600	ICMP Echo Request	allow	attacker
+2022-05-26 22:34:38	outbound	icmp	182.242.18.214:0	44.44.44.206:0	600	ICMP Echo Response	allow	attacker
+2022-05-26 22:34:38	outbound	icmp	158.100.82.42:0	3.3.3.3:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:34:38	inbound	icmp	3.3.3.3:0	158.100.82.42:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:34:38	inbound	icmp	44.44.44.82:0	86.60.23.186:0	600	ICMP Echo Request	allow	attacker
+2022-05-26 22:34:39	inbound	icmp	11.100.2.86:0	91.98.6.159:0	600	ICMP Echo Request	allow	attacker
+2022-05-26 22:34:39	inbound	icmp	44.44.44.116:0	86.60.23.12:0	600	ICMP Echo Request	allow	attacker
+2022-05-26 22:34:39	outbound	icmp	158.100.82.148:0	5.5.5.5:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:34:39	inbound	icmp	5.5.5.5:0	158.100.82.148:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:34:39	inbound	icmp	44.44.44.57:0	182.242.18.131:0	600	ICMP Echo Request	allow	attacker
+2022-05-26 22:34:39	outbound	icmp	182.242.18.131:0	44.44.44.57:0	600	ICMP Echo Response	allow	attacker
+2022-05-26 22:34:39	inbound	icmp	44.44.44.157:0	91.98.6.118:0	600	ICMP Echo Request	allow	attacker
+2022-05-26 22:34:39	inbound	icmp	11.100.2.94:0	28.33.158.146:0	600	ICMP Echo Request	allow	attacker
+2022-05-26 22:34:39	outbound	tcp	158.100.82.155:51662	6.6.6.6:7070	1480	S	allow	test
+2022-05-26 22:34:39	inbound	tcp	6.6.6.6:7070	158.100.82.155:51662	1480	SA	allow	test
+2022-05-26 22:34:39	outbound	tcp	158.100.82.155:51662	6.6.6.6:7070	1480	FA	allow	test
+2022-05-26 22:34:39	inbound	icmp	11.100.2.60:0	28.33.158.248:0	600	ICMP Echo Request	allow	attacker
+2022-05-26 22:34:39	inbound	icmp	44.44.44.87:0	182.242.18.214:0	600	ICMP Echo Request	allow	attacker
+2022-05-26 22:34:39	inbound	icmp	11.100.2.30:0	210.97.206.245:0	600	ICMP Echo Request	allow	attacker
+2022-05-26 22:34:39	outbound	icmp	184.60.3.231:0	1.1.1.1:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:34:39	inbound	icmp	1.1.1.1:0	184.60.3.231:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:34:39	inbound	icmp	11.100.2.10:0	91.98.6.39:0	600	ICMP Echo Request	allow	attacker
+2022-05-26 22:34:39	outbound	icmp	91.98.6.39:0	11.100.2.10:0	600	ICMP Echo Response	allow	attacker
+2022-05-26 22:34:40	inbound	icmp	11.100.2.37:0	86.60.23.196:0	600	ICMP Echo Request	allow	attacker
+2022-05-26 22:34:40	inbound	icmp	44.44.44.73:0	86.60.23.16:0	600	ICMP Echo Request	allow	attacker
+2022-05-26 22:34:40	outbound	icmp	16.138.70.33:0	1.1.1.1:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:34:40	inbound	icmp	1.1.1.1:0	16.138.70.33:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:34:40	inbound	icmp	11.100.2.86:0	91.98.6.127:0	600	ICMP Echo Request	allow	attacker
+2022-05-26 22:34:40	inbound	icmp	44.44.44.219:0	210.97.206.159:0	600	ICMP Echo Request	allow	attacker
+2022-05-26 22:34:40	outbound	udp	158.100.82.50:50351	7.7.7.7:4443	1480		allow	test
+2022-05-26 22:34:40	inbound	icmp	44.44.44.175:0	28.33.158.115:0	600	ICMP Echo Request	allow	attacker
+2022-05-26 22:34:40	inbound	icmp	44.44.44.167:0	86.60.23.159:0	600	ICMP Echo Request	allow	attacker
+2022-05-26 22:34:40	inbound	icmp	44.44.44.195:0	182.242.18.251:0	600	ICMP Echo Request	allow	attacker
+2022-05-26 22:34:40	outbound	icmp	248.8.87.126:0	3.3.3.3:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:34:40	inbound	icmp	3.3.3.3:0	248.8.87.126:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:34:40	inbound	icmp	11.100.2.105:0	210.97.206.133:0	600	ICMP Echo Request	allow	attacker
+2022-05-26 22:34:40	inbound	icmp	11.100.2.14:0	91.98.6.75:0	600	ICMP Echo Request	allow	attacker
+2022-05-26 22:34:40	inbound	icmp	11.100.2.77:0	210.97.206.58:0	600	ICMP Echo Request	allow	attacker
+2022-05-26 22:34:41	outbound	icmp	184.60.3.147:0	6.6.6.6:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:34:41	inbound	icmp	6.6.6.6:0	184.60.3.147:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:34:41	inbound	icmp	11.100.2.19:0	182.242.18.247:0	600	ICMP Echo Request	allow	attacker
+2022-05-26 22:34:41	outbound	icmp	184.60.3.83:0	4.4.4.4:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:34:41	inbound	icmp	4.4.4.4:0	184.60.3.83:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:34:41	outbound	icmp	104.78.21.64:0	2.2.2.2:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:34:41	inbound	icmp	2.2.2.2:0	104.78.21.64:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:34:41	outbound	icmp	248.8.87.151:0	7.7.7.7:0	600	ICMP Echo Request	allow	test
+2022-05-26 22:34:41	inbound	icmp	7.7.7.7:0	248.8.87.151:0	600	ICMP Echo Response	allow	test
+2022-05-26 22:34:42	outbound	tcp	158.100.82.120:57214	5.5.5.5:7090	1480	S	allow	test
+2022-05-26 22:34:42	inbound	tcp	5.5.5.5:7090	158.100.82.120:57214	1480	SA	allow	test
+2022-05-26 22:34:42	outbound	tcp	158.100.82.120:57214	5.5.5.5:7090	1480	FA	allow	test
