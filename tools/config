@@ -1,0 +1,36 @@
+{
+    "comment": "attacker",
+###   Log를 생성해서 기록하는 주기
+###   1ms, 1m, 1h 등의 형식
+###   최소 1ms
+    "period": "1ms",
+
+###   공격자가 사용할 네트워크 대역
+    "attacker_network":[
+        {
+            "network": "44.44.44.44/24",
+            "weight": 1
+        },
+        {
+            "network": "11.100.2.35/25",
+            "weight": 1
+        }
+    ],
+
+###   공격자가 사용할 C2 서버 목록
+    "c2_servers":[
+        {
+            "ip": "111.111.111.111",
+            "port": 4444,
+            "protocol": "tcp",
+            "weight": 1
+        }
+    ],
+
+###   스캔공격 로깅 관련 스캔 타입 설정
+#
+#   tcp_open
+#   tcp_syn
+#   
+    "scan_type": "tcp_syn"
+}

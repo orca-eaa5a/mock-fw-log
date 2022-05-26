@@ -1,0 +1,124 @@
+{
+    "log_fmt": "{time}\t{direction}\t{protocol}\t{src_ip}:{src_port}\t{dst_ip}:{dst_port}\t{size}\t{flags}\t{action}\t{comment}",
+    "comment": "test",
+###   Log를 생성해서 기록하는 주기
+###   1 -> 5로 갈 수록 주기가 길어짐
+    "period": 1,
+###   출발지/목적지 네트워크 범위
+###   weight이 클 수록 해당 네트워크에 속한 IP가 로깅될 확률이 높아짐.
+    "internal_network": [
+#        {
+#            "network": "16.48.31.0/24",
+#            "weight": 1
+#        },
+#        {
+#            "network": "16.48.32.128/25",
+#           "weight": 1
+#        }
+    ],
+    "external_network": [
+        {
+            "network": "2.1.111.0/24",
+            "weight": 1
+        },
+        {
+            "network": "7.1.5.5/24",
+            "weight": 1
+        }
+    ],
+###   사용자들이 접근하는 일반적인 서버 목록
+###   format : 
+###   {
+###       "ip": $ip,
+###       "port": $port,
+###       "weight": 1
+###   }
+    "external_servers": [
+        {
+            "ip": "1.1.1.1",
+            "port": 8080,
+            "weight": 1
+        },
+        {
+            "ip": "2.2.2.2",
+            "port": 80,
+            "weight": 1
+        },
+        {
+            "ip": "3.3.3.3",
+            "port": 443,
+            "weight": 1
+        },
+        {
+            "ip": "4.4.4.4",
+            "port": 9090,
+            "weight": 1
+        },
+        {
+            "ip": "5.5.5.5",
+            "port": 7090,
+            "weight": 1
+        },
+        {
+            "ip": "6.6.6.6",
+            "port": 7070,
+            "weight": 1
+        },
+        {
+            "ip": "7.7.7.7",
+            "port": 4443,
+            "protocol": "udp",
+            "weight": 1
+        }
+    ],
+
+###   관리하는 서버 목록
+###   empty일 시, 관리하는 서버 목록 없음
+###   format : 
+###   {
+###       "ip": $ip,
+###       "port": $port,
+###       "weight": 1
+###   }
+    "internal_servers": [
+        {
+            "ip": "16.48.31.20",
+            "port": 80,
+            "weight": 1
+        }
+    ],
+
+###   프로토콜
+###   로그 생성 시, 프로토콜에 맞게끔 로그를 생성
+###   weight이 클 수록 해당 프로토콜에 따른 로그가 생성될 확률이 높아짐
+###   format :
+###   {
+###       "name": $ip,
+###       "weight": 1
+###   }
+    "protocols": [
+        {
+            "name": "tcp",
+            "weight": 1
+        },
+        {
+            "name": "udp",
+            "weight": 1
+        },
+        {
+            "name": "icmp",
+            "weight": 1
+        }
+    ],
+
+###   로그 생성 간, inbound/outbound의 비율
+###   weight이 클 수록 해당 방향의 로그가 생성될 확률이 높아짐
+    "direction_weight": {
+        "outbound": 1,
+        "inbound": 0
+    },
+
+###   로그 생성 간, deny 된 로그의 비율
+###   percent가 클 수록 deny된 로그가 생성될 확률이 높아짐
+    "deny_rate": "0.01"
+}
